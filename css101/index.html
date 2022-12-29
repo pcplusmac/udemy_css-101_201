@@ -3,7 +3,23 @@
 <head>
     <title>CSS 101</title>
     <style>
-        body{
+       div.round{
+        border-width: 10px;
+        border-style: double;
+        border-color: blue;
+       }
+       div.nokia{
+        border-width: 10px;
+        border-style: double;
+        border-color: rgb(255, 0, 0);
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        width:80px;
+        height: 80px;
+        
+       }
+       
+       body{
             background-image: url(./dog.jpg);
             background-color: rgb(145, 255, 0);
             background-size:contain;
@@ -38,10 +54,13 @@
         /* div#bottom{
             text-align: center;
         } */
+
+        
     </style>
     
 </head>
 <body>
+    
     <h1 class="">this is css 101</h1>
     <div>
         <nav>
@@ -52,12 +71,15 @@
         add some elements in this &lt; div &gt; element. <p>but don't have to!</p>
 
     </div>
-    TODO:add any two paragraphs below into cirle and 7610 shape one each. 
+    
     <p class="blue">the content for this &lt;p&gt; is comming...</p>
+
+    <div class="round">this is round shape.</div>
+    <div class="nokia">this is nokia7610 shape.</div>
+
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem alias laudantium 
-        harum ad fugiat, soluta aliquid minima vitae repellat impedit deserunt amet maxime
-         aperiam numquam nostrum fugit! Quibusdam, similique quas.
+        
+        
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem alias laudantium 
         harum ad fugiat, soluta aliquid minima vitae repellat impedit deserunt amet maxime
          aperiam numquam nostrum fugit! Quibusdam, similique quas.
