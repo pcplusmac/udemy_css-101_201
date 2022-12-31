@@ -46,8 +46,9 @@
             padding:5px;
             margin-top: 1px;
             margin-bottom: 1px;
-            width: 31%;
+            max-width: 300px;
             height: 300px;
+
        }
         div#end2top{
             text-align: center;
@@ -58,7 +59,9 @@
         }
         
         div p{
+            /* text-decoration will not work if any header size set already in html */
             text-decoration: underline;
+            max-width: 300px;
         }
         span.testcol{
             display: inline-block;
@@ -66,8 +69,9 @@
             padding:5px;
             margin-top: 1px;
             margin-bottom: 1px;
-            width: 31%;
+            max-width: 300px;
             height: 300px;
+
 
         }
 
@@ -130,8 +134,13 @@
     <div class="testimo">
         <center><h2>customers feedback</h2></center> <hr>
         <div class="testcol">
-            <p>
-                user A feedback.
+            <p #="testmax">
+                <h3>user A feedback. </h3> <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Hic nesciunt voluptatum corporis laudantium dolor, recusandae eligendi maxime 
+                     natus at nam reiciendis earum quibusdam rerum quaerat tempora nobis pariatur eos
+                      Aut.
+                    
             </p>
         </div>
         <div class="testcol">
