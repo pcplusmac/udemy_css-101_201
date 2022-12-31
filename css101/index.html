@@ -41,13 +41,14 @@
 
        }
        div.testcol{
-            display: inline-block;
+            display: block;
             border: 3px dotted red;
             padding:5px;
-            margin-top: 1px;
-            margin-bottom: 1px;
-            max-width: 300px;
-            height: 300px;
+            margin:5px auto;
+            /* margin-top: 1px;
+            margin-bottom: 1px; */
+            max-width: 900px;
+            max-height: 400px;
             opacity: 0.9;
 
        }
@@ -56,22 +57,23 @@
         }
 
          div,p{
-            text-transform: uppercase;
+            text-transform:none;
         }
         
         div p{
             /* text-decoration will not work if any header size set already in html */
             text-decoration: underline;
-            max-width: 300px;
+            max-width: 500px;
         }
         span.testcol{
-            display: inline-block;
+            display: block;
             border: 3px double rgb(43, 255, 0);
             padding:5px;
-            margin-top: 1px;
-            margin-bottom: 1px;
-            max-width: 300px;
-            height: 300px;
+            margin:3px auto;
+            /* margin-top: 1px;
+            margin-bottom: 1px; */
+            width: 900px;
+            height: 400px;
 
 
         }
@@ -156,6 +158,10 @@
         </div>
         <span class="testcol">
             <p>user C feedback.(in span element)</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nulla ab dolores dolorum praesentium, 
+                debitis ad quia nihil iste quasi asperiores reprehenderit fugiat. Obcaecati, rem perferendis. In voluptatem
+                 totam ipsa!
+            </p>
 
         </span>
     </div>
