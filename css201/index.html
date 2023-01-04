@@ -6,16 +6,39 @@
         body{
             background-color: black;
         }
+        div.box{
+            border:3px solid red;
+            width:200px;
+            height: 400px;
+            position:relative;
+            top:100px;
+            left:100px;
+        }
         div.scarybox{
             font-size: 50px;
             /* box-shadow: 5px 5px 5px whitesmoke; */
             text-shadow: 2px 2px 5px red;
             color: rgba(0,0,0,1);
+            min-width: ;
         
+        }
+        div.hea{
+            position: fixed;
+            border-bottom: 3px dashed grey;
         }
     </style>
 </head>
 <body>
+    <div class="box"></div>
+    
+    <div class="hea">
+        <a href="">blog</a>
+        <a href="">help</a>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+    </div>
     <div class="scarybox">
         <p>I am a ghost!!!</p>
     </div>
