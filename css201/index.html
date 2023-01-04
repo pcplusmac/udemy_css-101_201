@@ -4,15 +4,21 @@
     <title>CSS 201</title>
     <style>
         body{
-            background-color: black;
+            background-color: rgb(37, 26, 159);
+        }
+        div.absolutebox{
+            background-color: grey;
+            border-bottom: 2px solid yellowgreen;
+            position: absolute;
+            top:0px;
         }
         div.box{
             border:3px solid red;
             width:200px;
             height: 400px;
             position:relative;
-            top:100px;
-            left:100px;
+            top:800px;
+            left:1000px;
         }
         div.scarybox{
             font-size: 50px;
@@ -29,7 +35,14 @@
     </style>
 </head>
 <body>
-    <div class="box"></div>
+    <div class="box">
+        <p>this is the 2nd line</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, explicabo. Vel, explicabo.
+             Autem consequuntur, animi similique corrupti magnam unde expedita accusantium numquam 
+             aliquam dignissimos, quos natus ex quas odio voluptatibus.
+        </p>
+        <div class="absolutebox"> <p>i am the absolute part of ths box, you can not move me.</p> </div>
+    </div>
     
     <div class="hea">
         <a href="">blog</a>
