@@ -4,6 +4,9 @@
     
     <title>about us</title>
     <style>
+        h2{
+            text-decoration: underline;
+        }
         *{
              box-sizing: border-box;
         }
@@ -14,6 +17,8 @@
         }
         .table div.flexItem{
             border:3px solid red;
+            margin:4px;
+            padding:3px;
             
         }
         .item1 {
@@ -23,13 +28,19 @@
         .item2{
             flex-basis: 20%;
             flex-shrink: 0;
+            flex-grow: 0;
         }
         .item3{
-            flex-basis: 80%;
+            flex-basis: 60%;
             flex-shrink: 0;
 
         }
-        .item4 {
+        .item4{
+            flex-basis:20%;
+            flex-grow: 0;
+        }
+
+        .item5 {
             flex-basis: 100%;
             flex-shrink: 0;
         }
@@ -38,12 +49,14 @@
 <body>
     <a href="index.html">home</a>
     <a href="contact201.html">contact</a>
-    <h1>about us</h1>
+    <center><h1>about us</h1></center> <hr>
+    <h2>course development plan</h2>
     <div class="table">
-        <div class="flexItem item1">item 1</div>
-        <div class="flexItem item2">item 2</div>    
-        <div class="flexItem item3">item 3</div>
-        <div class="flexItem item4">item 4</div>     
+        <div class="flexItem item1">header</div>
+        <div class="flexItem item2">title</div>    
+        <div class="flexItem item3">content</div>
+        <div class="flexItem item4">memo</div>
+        <div class="flexItem item5">footer</div>     
     </div>
     
 </body>
