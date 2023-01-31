@@ -15,36 +15,52 @@
             flex-wrap: wrap;
            
         }
-        .table div.flexItem{
-            border:3px solid red;
+        .table div{
+            /* border:3px solid black; */
             /* margin:4px; */
             padding:3px;
             
         }
-        .item1 {
+        .header {
             flex-basis: 100%;
             flex-shrink: 0;
             flex-grow: 0;
             background-color: #ccc;
             font-weight: bold;
+            border-bottom: double;
         }
-        .item2{
+        .title1{
             flex-basis: 20%;
             flex-shrink: 0;
             flex-grow: 0;
         }
-        .item3{
+        .content1 {
             flex-basis: 60%;
             flex-shrink: 0;
             flex-grow: 1;
 
         }
-        .item4{
+        .memo1{
             flex-basis:20%;
             flex-grow: 0;
         }
 
-        .item5 {
+        .title2{
+            flex-basis: 20%;
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+        .content2{
+            flex-basis: 60%;
+            flex-shrink: 0;
+            flex-grow: 1;
+
+        }
+        .memo2{
+            flex-basis:20%;
+            flex-grow: 0;
+        }
+        .footer{
             flex-basis: 100%;
             flex-shrink: 0;
             background-color: #ccc;
@@ -58,17 +74,30 @@
     <center><h1>about us</h1></center> <hr>
     <h2>course development plan</h2>
     <div class="table">
-        <div class="flexItem item1"><center>2023 time table</center>  </div>
-        <div class="flexItem item2"><center> day of week</center></div>    
-        <div class="flexItem item3">
+        <div class="header"><center>2023 time table</center></div>
+        <div class="title1">
+            <center> monday:</center>
+        </div>    
+        <div class="content1">
             <p>
-                <h3>class:</h3><p>block10 10F93.</p><br>
-                <h3>lecture:</h3><p>John Citizen</p>
+                <h3>class:</h3>block10 10F93.<br>
+                <h3>lecture:</h3>John Citizen
             </p>
         </div>
-        <div class="flexItem item4"><center> memo</center></div>
-        <div class="flexItem item5"><center>footer</center> </div>     
-    </div>
+        <div class="memo1"><center> memo</center></div>
+
+        <div class="title2">
+            <center> friday:</center>
+        </div>    
+        <div class="content2">
+            <p>
+                <h3>class:</h3>block10 10F93.<br>
+                <h3>lecture:</h3>John Citizen
+            </p>
+        </div>
+        <div class="memo2"><center> memo</center></div>
+        <div class="footer"><center>footer</center> </div>     
+   </div> 
     
 </body>
 </html>
