@@ -5,17 +5,26 @@
     <title>products</title>
     TODO:
     <style>
+        * {
+            box-sizing: border-box;
+        }
         .template-grid{
             display: grid;
             grid-template-columns: auto auto auto auto;
+            grid-row-gap: 20px;
+            grid-column-gap: 20px;
         }
         .tem-child{
             border:1px solid black;
         }
         .tem-child1{
-            /* grid-column-start: 1;
-            grid-column-end: 5; */
+            grid-column-start: 1;
+            grid-column-end: 5;
         }
+        /* .tem-child2{
+            grid-row-start:2;
+            grid-row-end:5;
+        } */
     </style>
 </head>
 <body>
@@ -56,13 +65,13 @@
         <div class="tem-child tem-child7">31</div>
         <div class="tem-child tem-child9">32</div>
         <div class="tem-child tem-child1">33</div>
-        <div class="tem-child tem-child10">34</div>
+        <!-- <div class="tem-child tem-child10">34</div>
         <div class="tem-child tem-child11">35</div>
-        <div class="tem-child tem-child12">36</div>
-        <div class="tem-child tem-child12">37</div>
+        <div class="tem-child tem-child12">36</div> -->
+        <!-- <div class="tem-child tem-child12">37</div>
         <div class="tem-child tem-child11">38</div>
         <div class="tem-child tem-child12">39</div>
-        <div class="tem-child tem-child12">40</div>
+        <div class="tem-child tem-child12">40</div> -->
     </div>
     
 </body>
